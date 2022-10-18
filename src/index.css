@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+}
+.divv{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 1em;
+}
+.logo {
+  width:12%;
+}
+
+.trainer img{
+    width:100%;
+}
+
+.section1{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    padding:0 1em;
+
+}
+.section2{
+    margin:3em auto;
+    text-align: center;
+}
+.section2 input{
+    height:30px;
+    width:50%;
+}
+.section2 button{
+    background: red;
+    border: none;
+    color:white;
+    padding:.5em 1em;
+    height:30px;
+}
+.man{
+    width:100%;
+    opacity: 0.3;
+}
+.banner{
+    background: black;
+    margin-bottom: 2em;
+    position: relative;
+}
+.banner h2{
+    color:white;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin:auto 0;
+    z-index: 1;
+}
+
+.icon{
+    width:20%;
+}
+.exercise-container{
+    display: grid;
+    grid-template-columns:auto auto;
+    justify-content:space-around;
+}
+.exercise-card button{
+    padding:.5em;
+    width:fit-content;
+    border:none;
+    border-radius: .5em;
+}
+.but1{
+    background-color: rgb(240, 211, 81)
+}
+.but2{
+    background-color: rgb(133, 135, 231)
+}
+.exercise-card div{
+    display: flex;
+    justify-content:center;
+}

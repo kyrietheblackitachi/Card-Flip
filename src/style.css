@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+.divv{
+  padding-top:4em;
+
+}
+
+.grid-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  position: relative;
+  width:100px;
+  height:100px;
+}
+#card{
+  position: absolute;
+  width:100%;
+  height:100%;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+.front{
+  position: absolute;
+  width:100%;
+  height:100%;
+  backface-visibility: hidden;
+  text-align: center;
+
+}
+.back{
+  position: absolute;
+  width:100%;
+  height:100%;
+  backface-visibility: hidden;
+  text-align: center;
+  transform:rotateY(180deg);  background: gray;
+
+}
+.back img{
+  width:80px;
+}
+.front img{
+  width:80px;
+}
+.flipped{
+   transform: rotateY(180deg);
+}
+.clicks{
+  margin-top: 1em;
+  text-align: center;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 2em; ;
+}
